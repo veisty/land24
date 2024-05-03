@@ -1,4 +1,5 @@
 function drawGrid(p5, x1, x2, y1, y2, z, zoom) {
+  // p5.print("draw " + x1 + "," + y1);
   var noiseScale=0.02; 
   p5.noiseDetail(8,0.5);
   p5.noStroke();
